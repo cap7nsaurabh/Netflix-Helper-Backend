@@ -8,4 +8,26 @@
   <li>JPA</li>
   <li>MySQL</li>
 </ul>
-<h3></h3>
+<h3>Endpoints</h3
+<ul>
+  <li>User Controller
+    <br>
+  <ol>
+   <li>/user: used to get an user</li>
+    <li>/register: used to register an user</li>
+    <li>/login: used to authenticate an user</li>
+  </ol></li>
+  <li>Favourite Controller: Endpoints under this are used to add and modify favourite lists for an user
+    <ol>
+      <li>/{userid} Get Method : Returns a list of all favourites for given user</li>
+      <li>/{userid} Post Method : adds movie to the list of all favourites for given user</li>
+      <li>/{userid}/{showid} Delete Method : Deletes given movie from the list of all favourites for given user</li>
+    </ol></li>
+  <li>WatchLater Controller: Endpoints under this are used to add and modify Watch later lists for an user
+   <ol>
+      <li>/{userid} Get Method : Returns a list of all watch-later for given user</li>
+      <li>/{userid} Post Method : adds movie to the list of all watch-later for given user</li>
+      <li>/{userid}/{showid} Delete Method : Deletes given movie from the list of all watch-later for given user</li>
+    </ol>
+  </li>
+</ul>
